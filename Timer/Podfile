@@ -9,4 +9,7 @@ target 'Timer' do
 pod 'Alamofire', '~> 4.5'
 pod 'AlamofireObjectMapper', '~> 4.0'
 pod 'SwifterSwift'
+pod 'KeychainSwift', '~> 8.0'
+pod 'Timberjack', :git => 'https://github.com/andysmart/Timberjack.git', :branch => 'master'
+
 end

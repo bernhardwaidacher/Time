@@ -8,9 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		749CD7C81F64318900E1C968 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749CD7C71F64318900E1C968 /* AppDelegate.swift */; };
-		749CD7CA1F64318900E1C968 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749CD7C91F64318900E1C968 /* ViewController.swift */; };
 		749CD7CC1F64318900E1C968 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 749CD7CB1F64318900E1C968 /* Assets.xcassets */; };
 		749CD7CF1F64318900E1C968 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 749CD7CD1F64318900E1C968 /* Main.storyboard */; };
+		749CD7D81F6439D200E1C968 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749CD7D71F6439D200E1C968 /* TimerViewController.swift */; };
+		749CD7DA1F643BD400E1C968 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749CD7D91F643BD400E1C968 /* EventMonitor.swift */; };
+		749CD7DD1F64657100E1C968 /* TimerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749CD7DC1F64657100E1C968 /* TimerHelper.swift */; };
+		749CD7DF1F64696000E1C968 /* ApiKeyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749CD7DE1F64696000E1C968 /* ApiKeyViewController.swift */; };
+		749CD7E11F646A0C00E1C968 /* NSViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749CD7E01F646A0C00E1C968 /* NSViewControllerExtension.swift */; };
+		749CD7E41F646ED900E1C968 /* TimeEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749CD7E31F646ED900E1C968 /* TimeEntry.swift */; };
+		749CD7E61F647E2700E1C968 /* Holiday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749CD7E51F647E2700E1C968 /* Holiday.swift */; };
+		749CD7EA1F6505B200E1C968 /* CalendarViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749CD7E81F6505B200E1C968 /* CalendarViewItem.swift */; };
+		749CD7EB1F6505B200E1C968 /* CalendarViewItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 749CD7E91F6505B200E1C968 /* CalendarViewItem.xib */; };
+		749CD7ED1F6549A200E1C968 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749CD7EC1F6549A200E1C968 /* DateExtension.swift */; };
+		749CD7EF1F655A1F00E1C968 /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749CD7EE1F655A1F00E1C968 /* DayView.swift */; };
+		749CD7F11F65672E00E1C968 /* MonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749CD7F01F65672E00E1C968 /* MonthView.swift */; };
 		B4BCF3FB9327ECD87AFB1EA2 /* Pods_Timer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 711A9EB3CA5D460C1DA016BD /* Pods_Timer.framework */; };
 /* End PBXBuildFile section */
 
@@ -20,10 +31,21 @@
 		711A9EB3CA5D460C1DA016BD /* Pods_Timer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Timer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		749CD7C41F64318900E1C968 /* Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		749CD7C71F64318900E1C968 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		749CD7C91F64318900E1C968 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		749CD7CB1F64318900E1C968 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		749CD7CE1F64318900E1C968 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		749CD7D01F64318900E1C968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		749CD7D71F6439D200E1C968 /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		749CD7D91F643BD400E1C968 /* EventMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
+		749CD7DC1F64657100E1C968 /* TimerHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerHelper.swift; sourceTree = "<group>"; };
+		749CD7DE1F64696000E1C968 /* ApiKeyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiKeyViewController.swift; sourceTree = "<group>"; };
+		749CD7E01F646A0C00E1C968 /* NSViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSViewControllerExtension.swift; sourceTree = "<group>"; };
+		749CD7E31F646ED900E1C968 /* TimeEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeEntry.swift; sourceTree = "<group>"; };
+		749CD7E51F647E2700E1C968 /* Holiday.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Holiday.swift; sourceTree = "<group>"; };
+		749CD7E81F6505B200E1C968 /* CalendarViewItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewItem.swift; sourceTree = "<group>"; };
+		749CD7E91F6505B200E1C968 /* CalendarViewItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalendarViewItem.xib; sourceTree = "<group>"; };
+		749CD7EC1F6549A200E1C968 /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		749CD7EE1F655A1F00E1C968 /* DayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayView.swift; sourceTree = "<group>"; };
+		749CD7F01F65672E00E1C968 /* MonthView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,13 +89,56 @@
 		749CD7C61F64318900E1C968 /* Timer */ = {
 			isa = PBXGroup;
 			children = (
+				749CD7E71F65058F00E1C968 /* ui */,
+				749CD7E21F646EA200E1C968 /* model */,
+				749CD7DB1F64656000E1C968 /* helper */,
+				749CD7D61F64399F00E1C968 /* controller */,
 				749CD7C71F64318900E1C968 /* AppDelegate.swift */,
-				749CD7C91F64318900E1C968 /* ViewController.swift */,
 				749CD7CB1F64318900E1C968 /* Assets.xcassets */,
 				749CD7CD1F64318900E1C968 /* Main.storyboard */,
 				749CD7D01F64318900E1C968 /* Info.plist */,
+				749CD7D91F643BD400E1C968 /* EventMonitor.swift */,
 			);
 			path = Timer;
+			sourceTree = "<group>";
+		};
+		749CD7D61F64399F00E1C968 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				749CD7D71F6439D200E1C968 /* TimerViewController.swift */,
+				749CD7DE1F64696000E1C968 /* ApiKeyViewController.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		749CD7DB1F64656000E1C968 /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				749CD7DC1F64657100E1C968 /* TimerHelper.swift */,
+				749CD7E01F646A0C00E1C968 /* NSViewControllerExtension.swift */,
+				749CD7EC1F6549A200E1C968 /* DateExtension.swift */,
+			);
+			name = helper;
+			sourceTree = "<group>";
+		};
+		749CD7E21F646EA200E1C968 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				749CD7E31F646ED900E1C968 /* TimeEntry.swift */,
+				749CD7E51F647E2700E1C968 /* Holiday.swift */,
+				749CD7EE1F655A1F00E1C968 /* DayView.swift */,
+				749CD7F01F65672E00E1C968 /* MonthView.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		749CD7E71F65058F00E1C968 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				749CD7E81F6505B200E1C968 /* CalendarViewItem.swift */,
+				749CD7E91F6505B200E1C968 /* CalendarViewItem.xib */,
+			);
+			name = ui;
 			sourceTree = "<group>";
 		};
 		EACBF4E33BB5B927DEEDB2ED /* Pods */ = {
@@ -150,6 +215,7 @@
 			files = (
 				749CD7CC1F64318900E1C968 /* Assets.xcassets in Resources */,
 				749CD7CF1F64318900E1C968 /* Main.storyboard in Resources */,
+				749CD7EB1F6505B200E1C968 /* CalendarViewItem.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,8 +274,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				749CD7CA1F64318900E1C968 /* ViewController.swift in Sources */,
+				749CD7DF1F64696000E1C968 /* ApiKeyViewController.swift in Sources */,
+				749CD7EF1F655A1F00E1C968 /* DayView.swift in Sources */,
+				749CD7ED1F6549A200E1C968 /* DateExtension.swift in Sources */,
+				749CD7E11F646A0C00E1C968 /* NSViewControllerExtension.swift in Sources */,
+				749CD7E61F647E2700E1C968 /* Holiday.swift in Sources */,
+				749CD7DA1F643BD400E1C968 /* EventMonitor.swift in Sources */,
+				749CD7DD1F64657100E1C968 /* TimerHelper.swift in Sources */,
+				749CD7F11F65672E00E1C968 /* MonthView.swift in Sources */,
 				749CD7C81F64318900E1C968 /* AppDelegate.swift in Sources */,
+				749CD7EA1F6505B200E1C968 /* CalendarViewItem.swift in Sources */,
+				749CD7E41F646ED900E1C968 /* TimeEntry.swift in Sources */,
+				749CD7D81F6439D200E1C968 /* TimerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,6 +444,7 @@
 				749CD7D51F64318900E1C968 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

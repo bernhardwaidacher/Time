@@ -3,6 +3,7 @@ PODS:
   - AlamofireObjectMapper (4.1.0):
     - Alamofire (~> 4.1)
     - ObjectMapper (~> 2.0)
+  - KeychainSwift (8.0.2)
   - ObjectMapper (2.2.8)
   - SwifterSwift (3.1.1):
     - SwifterSwift/Cocoa (= 3.1.1)
@@ -11,18 +12,33 @@ PODS:
   - SwifterSwift/Cocoa (3.1.1)
   - SwifterSwift/Foundation (3.1.1)
   - SwifterSwift/UIKit (3.1.1)
+  - Timberjack (0.0.3)
 
 DEPENDENCIES:
   - Alamofire (~> 4.5)
   - AlamofireObjectMapper (~> 4.0)
+  - KeychainSwift (~> 8.0)
   - SwifterSwift
+  - Timberjack (from `https://github.com/andysmart/Timberjack.git`, branch `master`)
+
+EXTERNAL SOURCES:
+  Timberjack:
+    :branch: master
+    :git: https://github.com/andysmart/Timberjack.git
+
+CHECKOUT OPTIONS:
+  Timberjack:
+    :commit: 303b398d5ead5d5fc4dbf86a476b09a856dda4ec
+    :git: https://github.com/andysmart/Timberjack.git
 
 SPEC CHECKSUMS:
   Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
   AlamofireObjectMapper: 435adc82f5b367679bd9e71c4974a54efd0b2521
+  KeychainSwift: 213db04dfe7244988e61f77c72a2afb2f775954a
   ObjectMapper: 3d571bb5af471c779e1160828cd9ad5c4ef90958
   SwifterSwift: 8a93e265c97f552ff03a0da2369c74a3c030d482
+  Timberjack: 20de84a2c135134de6821d1ea90cd57709567e2d
 
-PODFILE CHECKSUM: 86e4b58764f5769d5fc11a25a9ba792b805fe33f
+PODFILE CHECKSUM: 5968b9ab97aadbdc98f9c3d1a75444c5b4f0cd0c
 
 COCOAPODS: 1.2.0
